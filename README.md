@@ -11,7 +11,9 @@ Origins of the module
 ---------------------
 
 The code from this module is a PHP port from the original Python module,
-"options.py", written by Avery Pennarun and contributors for the bup project.
+"options.py", written by Avery Pennarun and contributors for the bup[1] project.
+
+[1]:https://github.com/apenwarr/bup/
 
 How good is it for you?
 -----------------------
