@@ -80,8 +80,8 @@ using this module:
     $spec = "
     my_script [-q] [--config=<file>] file ...
     --
-    q,quiet  Don't show progress info on the terminal.
-    c,config Specify an alternative config file [~/.my_script.conf]
+    q,quiet   Don't show progress info on the terminal.
+    c,config= Specify an alternative config file [~/.my_script.conf]
     ";
     
     $o = new Options($spec);
