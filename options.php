@@ -178,8 +178,9 @@ function _getopt_do_longs($opts, $opt, $longopts, $args) {
     if ($i === False) {
         $optarg = Null;
     } else {
-        $opt = substr($opt,0,$i);
-        $optarg = substr($opt,$i+1);
+        $oopt = $opt;
+        $opt = substr($oopt,0,$i);
+        $optarg = substr($oopt,$i+1);
     }
 
     list($has_arg, $opt) = _getopt_long_has_args($opt, $longopts);
