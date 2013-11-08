@@ -290,6 +290,10 @@ class OptDict extends ArrayObject {
         list($k, $invert) = $this->_unalias($k);
         return _invert($this->_opts[$k], $invert);
     }
+
+    public function offsetExists($k) {
+        return isset($this->_opts[$k]);
+    }
 }
 
 
