@@ -101,6 +101,12 @@ unknown options):
 
     php example.php -c -f blah.idx -vvv
 
+Compatibility
+-------------
+
+ * PHP 5.x
+ * PHP 7.x -- tested summarily but successfully
+
 Licensing
 ---------
 
