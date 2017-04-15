@@ -94,12 +94,12 @@ using this module:
     $conf = fopen($opt->config, 'w');
     // and so on ...
 
-For a more complete example that documents the module's capabilities, read the
-file 'test.php' included with the module. You can run the file and give it
-arguments from the option spec (or not in there, see what happens with unknown
-options):
+For a more descriptive example that documents the module's capabilities, read
+the file 'example.php' included with the module. You can run the file and give
+it arguments from the option spec (or not in there, see what happens with
+unknown options):
 
-    php test.php -c -f blah.idx -vvv
+    php example.php -c -f blah.idx -vvv
 
 Licensing
 ---------
